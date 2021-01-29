@@ -4,7 +4,7 @@ A new Flutter application.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for a Flutter application. I Used Provider and Firebase in this app and this may be useful for beginner dev to understand Provider. 
 
 A few resources to get you started if this is your first Flutter project:
 
