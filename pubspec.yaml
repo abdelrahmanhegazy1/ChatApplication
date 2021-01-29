@@ -1,0 +1,46 @@
+name: whatsapp
+description: A new Flutter application.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  provider: ^4.3.3
+  firebase_core: ^0.7.0
+  firebase_auth: ^0.20.0+1
+  cloud_firestore: ^0.16.0
+  firebase_storage: ^7.0.0
+  rflutter_alert: ^1.1.0
+  modal_progress_hud: ^0.1.3
+  image_picker:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+  - images/
+  fonts:
+    - family: Maven_Pro
+      fonts:
+        - asset: fonts/MavenPro-Black.ttf
+        - asset: fonts/MavenPro-Bold.ttf
+        - asset: fonts/MavenPro-ExtraBold.ttf
+        - asset: fonts/MavenPro-Medium.ttf
+        - asset: fonts/MavenPro-Regular.ttf
+        - asset: fonts/MavenPro-SemiBold.ttf
+
+  
